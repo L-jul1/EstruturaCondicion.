@@ -15,4 +15,12 @@ public class Program
 	  idade = Convert.ToInt16(Console.ReadLine());
 	  ano = 2026 - idade; 
 	  Console.WriteLine("OLÁ " + nome + " " + sobrenome); 
-	  Console.WriteLine("CASO VOCÊ TENHA FEITO ANIVERSARIO, VOCÊ NASCEU NO ANO DE " + ano); 
+	  Console.WriteLine("SUA IDADE É:" + ano); 
+	  if (idade>=18){
+		  Console.WriteLine("VOCÊ É MAIOR DE IDADE");
+	  }
+	  else { 
+		  Console.WriteLine("VOCÊ É MENOR DE IDADE");
+	  }
+	}
+}
